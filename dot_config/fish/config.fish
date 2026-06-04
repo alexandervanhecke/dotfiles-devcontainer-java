@@ -7,6 +7,9 @@ if status is-interactive
     export JAVA_HOME="/usr/local/sdkman/candidates/java/current"
     export EDITOR=nvim
     alias vi=nvim
+    alias mvn="/usr/local/sdkman/candidates/mvnd/current/bin/mvnd"
+    alias mvnd="/usr/local/sdkman/candidates/mvnd/current/bin/mvnd"
+    alias m="/usr/local/sdkman/candidates/mvnd/current/bin/mvnd"
     alias vim=nvim
     alias cm=chezmoi
     direnv hook fish | source
